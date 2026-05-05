@@ -1,8 +1,15 @@
 Options -Indexes
 DirectoryIndex index.html
 
+# ── MAINTENANCE MODE ──
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/maintenance\.html$
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/Moroccan Transfer\.png
+RewriteRule ^ /maintenance.html [R=302,L]
+
 # Redirect all requests to index.html for clean URLs
-ErrorDocument 404 /index.html
+ErrorDocument 404 /maintenance.html
 
 # Cache static assets
 <IfModule mod_expires.c>
