@@ -1183,3 +1183,21 @@ textarea.form-control{resize:vertical;min-height:100px}
     display: none;
   }
 }
+
+
+/* Custom grid for Circuits section */
+.grid-circuits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 991px) {
+  .grid-circuits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .grid-circuits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
