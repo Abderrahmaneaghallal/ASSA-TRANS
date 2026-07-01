@@ -1,10 +1,10 @@
 {
-  "name": "moroccan-transfer",
+  "name": "assa-trans",
   "version": "1.0.0",
-  "description": "MoroccanTransfer - Agence de transferts et excursions privées au Maroc",
+  "description": "AssaTrans - Agence de transferts et excursions privées au Maroc",
   "scripts": {
     "build": "echo 'Static site'",
-    "start": "npx serve ."
+    "start": "npx -y http-server . -p 8080 -c-1"
   },
   "keywords": ["maroc", "transfert", "excursion", "tourisme"]
 }

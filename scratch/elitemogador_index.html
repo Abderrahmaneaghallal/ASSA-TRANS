@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Élite Mogador – Transferts Luxe, Excursions & Activités à Essaouira</title>
+  <meta name="description" content="Élite Mogador – Transferts privés, excursions guidées et activités haut de gamme à Essaouira (Mogador), Maroc. Réservez via WhatsApp." />
+  <meta property="og:title" content="Élite Mogador – Tourisme de Luxe à Essaouira" />
+  <meta property="og:description" content="Transferts privés, excursions guidées et activités premium à Essaouira, Maroc." />
+  <meta property="og:image" content="élite mogador logo.png" />
+  <link rel="icon" href="élite mogador logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23/build/css/intlTelInput.css" />
+  <style>
+    /* intl-tel-input dark theme for modal */
+    .iti { width:100%; }
+    .iti__tel-input { width:100% !important; }
+    .iti--separate-dial-code .iti__selected-dial-code { color:var(--white); font-size:14px; }
+    .iti__flag-container { background:var(--black2); border-right:1px solid var(--border); border-radius:12px 0 0 12px; }
+    .iti__selected-flag { background:transparent !important; padding:0 10px 0 12px; height:100%; }
+    .iti__selected-flag:hover, .iti__selected-flag:focus { background:rgba(255,255,255,0.05) !important; }
+    .iti__dropdown-content { background:#1a1a1a; border:1px solid var(--border); border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.5); }
+    .iti__search-input { background:#111; border:1px solid var(--border); color:var(--white); border-radius:8px; padding:8px 12px; }
+    .iti__search-input::placeholder { color:var(--gray2); }
+    .iti__country { color:var(--white); padding:8px 12px; }
+    .iti__country:hover, .iti__country--highlight { background:rgba(201,168,76,0.12) !important; }
+    .iti__country-name { color:var(--white); }
+    .iti__dial-code { color:var(--gray); }
+    .iti__divider { border-color:var(--border); }
+    .iti__arrow { border-top-color:var(--gray); }
+    .iti__arrow--up { border-bottom-color:var(--gray); }
+  </style>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Élite Mogador",
+    "description": "Tourisme de luxe à Essaouira ? Transferts privés, excursions et activités",
+    "address": { "@type": "PostalAddress", "addressLocality": "Essaouira", "addressCountry": "MA" },
+    "telephone": "+212663317500",
+    "url": "https://elite-mogador.com"
+  }
+  </script>
+</head>
+<body>
+
+<!-- ?? MODAL CONTAINER ?? -->
+<div id="modal-overlay" class="modal-overlay" role="dialog" aria-label="Détails"></div>
+
+<!-- ?? MOBILE DRAWER ?? -->
+<div class="drawer-overlay"></div>
+<nav class="nav-drawer" aria-label="Menu mobile">
+  <button class="drawer-close" aria-label="Fermer le menu"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></button>
+  <div class="drawer-logo"><img src="élite mogador logo.png" alt="Élite Mogador" /></div>
+  <div class="drawer-links">
+    <a href="#hero">Accueil</a>
+    <a href='/transferts'>Transferts</a>
+    <a href='/blog'>Blog</a>
+    <a href='/a-propos'>À Propos</a>
+    <a href='/contact'>Contact</a>
+  </div>
+  <div style="margin-top:auto;padding-top:32px">
+    <a href="https://wa.me/21266331750?text=Bonjour%20%C3%89lite%20Mogador%2C%20je%20souhaite%20avoir%20plus%20d%27informations." target="_blank" class="btn btn-gold" style="width:100%;justify-content:center">
+      Réserver maintenant
+    </a>
+  </div>
+</nav>
+
+<!-- ?? NAVBAR ?? -->
+<nav class="nav" role="navigation" aria-label="Navigation principale">
+  <a class='nav-logo' href='/'>
+    <img src="élite mogador logo.png" alt="Élite Mogador" />
+  </a>
+
+  <ul class="nav-links" role="list">
+    <li><a href="#hero" class="active">Accueil</a></li>
+    <li><a href='/transferts'>Transferts</a></li>
+    <li><a href='/blog'>Blog</a></li>
+    <li><a href='/a-propos'>À Propos</a></li>
+    <li><a href='/contact'>Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+      <a class='nav-cta' href='/transferts'>Réservez vos véhicules</a>
+    <button class="nav-hamburger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- 
+     SECTION 1 ? HERO
+ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="hero-slide active" style="background-image:url('images/hero/hero-essaouira.webp')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/hero-marrakech.webp')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/hero-transfer.webp')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/hero-landscape.webp')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/hero-transport.webp')"></div>
+  </div>
+  <div class="hero-dots">
+    <button class="hero-dot active" aria-label="Slide 1"></button>
+    <button class="hero-dot" aria-label="Slide 2"></button>
+    <button class="hero-dot" aria-label="Slide 3"></button>
+    <button class="hero-dot" aria-label="Slide 4"></button>
+    <button class="hero-dot" aria-label="Slide 5"></button>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">Tourisme de luxe &bull; Essaouira (Mogador)</div>
+
+    <h1 class="hero-title">
+      Vivez Essaouira<br>
+      <span class="gold">en première classe</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Transferts privés, excursions guidées et activités exclusives
+      pour une expérience inoubliable à Mogador et sa région.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="https://wa.me/21266331750?text=Bonjour%20%C3%89lite%20Mogador%2C%20je%20souhaite%20r%C3%A9server%20maintenant." target="_blank" class="btn btn-gold">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Réserver maintenant
+      </a>
+      <a href="#excursions" class="btn btn-outline">Découvrir nos services</a>
+    </div>
+
+    <div class="hero-trust">
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Essaouira & région
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        Service certifié premium
+      </div>
+      <div class="trust-item">
+        <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/></svg>
+        Disponible 24h/7j
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+    Défiler
+  </div>
+</section>
+
+<!-- ?? TICKER ?? -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="ticker-dot"></span>Essaouira</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Transferts Privés</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Excursions Guidées</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Surf & Kitesurf</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Aéroport</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Agadir</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marrakech</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>quitation</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Désert</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Conciergerie 24/7</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Luxe & Prestige</span>
+    <!-- duplicate -->
+    <span class="ticker-item"><span class="ticker-dot"></span>Essaouira</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Transferts Privés</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Excursions Guidées</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Surf & Kitesurf</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Aéroport</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Agadir</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marrakech</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>quitation</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Désert</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Conciergerie 24/7</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Luxe & Prestige</span>
+  </div>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- 
+     SECTION 2 ? EXCURSIONS
+ -->
+<section class="section section-excursions" id="excursions">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Nos Excursions</div>
+        <h2 class="section-title">Essaouira & Marrakech, les incontournables</h2>
+        <p class="section-subtitle">Des journées inoubliables avec des guides passionnés, pour découvrir les trésors d'Essaouira et de Marrakech.</p>
+      </div>
+    </div>
+
+    <div class="cards-grid">
+
+      <!-- Card 1 ? Médina Essaouira -->
+      <div class="card reveal reveal-delay-1">
+        <img class="card-img" src="images/excursions/medina-essaouira.webp" alt="Médina d'Essaouira" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Essaouira</span>
+          <h3 class="card-title">Médina d'Essaouira & remparts historiques</h3>
+          <p class="card-desc">Plongez dans le labyrinthe bleu et blanc de la médina UNESCO, entre galeries d'art, artisans gnaoua et bastions du XVIIIe siècle.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> Demi-journée</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 250 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Essaouira',emoji:'',title:'Médina & remparts d\'Essaouira',duration:'Demi-journée ? 9h à 13h',difficulty:'Facile',price:'À partir de 250 MAD / pers.',description:'Classée au patrimoine mondial de l\'UNESCO, la médina d\'Essaouira est un chef-d\'uvre d\'architecture portuaire. Avec votre guide expert, explorez les ruelles bleues et blanches, découvrez les ateliers d\'artisans du bois thuya, écoutez la musique gnaoua résonner dans les souks et contemplez les remparts du XVIIIe siècle face à l\'Atlantique. Un voyage dans le temps chargé d\'émotions.',included:['Guide historique certifié','Entrée remparts','Dégustation thé à la menthe','Visite atelier thuya'],excluded:['Achats personnels','Repas (non compris)']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27excursion%20%22M%C3%A9dina%20d%27Essaouira%22." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 ? Balade à cheval Essaouira -->
+      <div class="card reveal reveal-delay-2">
+        <img class="card-img" src="images/excursions/cheval-plage.webp" alt="Balade à cheval Essaouira" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Essaouira</span>
+          <h3 class="card-title">Balade à cheval – plage & dunes d'Essaouira</h3>
+          <p class="card-desc">Galopez sur les dunes côtières d'Essaouira à dos de cheval arabe-barbe, face à l'Atlantique et au coucher du soleil.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 2h à 4h</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Tous niveaux</span>
+          </div>
+          <div class="card-price">À partir de 350 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Essaouira',emoji:'',title:'Balade à cheval ? dunes d\'Essaouira',duration:'2h à 4h (au choix)',difficulty:'Tous niveaux',price:'À partir de 350 MAD / pers.',description:'Imaginez galoper sur les dunes de sable doré qui longent la côte atlantique d\'Essaouira, les embruns sur le visage et le soleil qui plonge vers l\'horizon. Nos chevaux arabes-barbes sont habitués à accueillir cavaliers débutants et confirmés. Un guide à cheval vous accompagne pour une promenade sécurisée et absolument magique dans ce décor unique.',included:['Cheval & équipement complet','Guide à cheval','Assurance activité','Casque disponible'],excluded:['Photos professionnelles']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20balade%20%C3%A0%20cheval%20%C3%A0%20Essaouira." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 ? Jemaa el-Fna Marrakech -->
+      <div class="card reveal reveal-delay-3">
+        <img class="card-img" src="images/excursions/jemaa-elfna.webp" alt="Place Jemaa el-Fna Marrakech" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Jemaa el-Fna & médina de Marrakech</h3>
+          <p class="card-desc">La place la plus célèbre d'Afrique au coucher du soleil : conteurs, musiciens, étalages d'épices et l'animation de la ville rouge.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> Journée complète</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 500 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Marrakech',emoji:'??',title:'Jemaa el-Fna & médina de Marrakech',duration:'Journée complète ? 8h à 20h',difficulty:'Facile',price:'À partir de 500 MAD / pers.',description:'Depuis Essaouira, rejoignez la ville ocre de Marrakech en véhicule confort. Votre guide vous plonge dans l\'effervescence de la médina : les souks aux mille couleurs, la Medersa Ben Youssef, les tanneries et l\'apothéose au coucher du soleil sur la place Jemaa el-Fna, classée chef-d\'uvre immatériel de l\'UNESCO, où conteurs et musiciens Gnaoua font vibrer la nuit.',included:['Transport climatisé aller-retour','Guide professionnel bilingue','Entrée monuments','Déjeuner en médina','Dîner terrasse Jemaa el-Fna'],excluded:['Achats personnels','Activités optionnelles']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27excursion%20%22Jemaa%20el-Fna%20Marrakech%22." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 ? Jardin Majorelle Marrakech -->
+      <div class="card reveal reveal-delay-1">
+        <img class="card-img" src="images/excursions/jardin-majorelle.webp" alt="Jardin Majorelle Marrakech" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Jardin Majorelle & musée Yves Saint Laurent</h3>
+          <p class="card-desc">Le jardin aux murs bleu cobalt de Majorelle, joyau botanique de Marrakech et sanctuaire d'Yves Saint Laurent.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> Demi-journée</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 450 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Marrakech',emoji:'?',title:'Jardin Majorelle & Musée YSL',duration:'Demi-journée ? 9h à 14h',difficulty:'Facile',price:'À partir de 450 MAD / pers.',description:'Créé par le peintre Jacques Majorelle et sublimé par Yves Saint Laurent, le Jardin Majorelle est l\'un des endroits les plus photographiés du Maroc. Ce paradis botanique aux murs bleu cobalt abrite des cactées géantes, des bassins aux nénuphars et le fascinant musée Berbère. Un moment suspendu hors du temps, à quelques minutes de l\'effervescence des souks.',included:['Transport aller-retour','Guide conférencier','Billet d\'entrée jardin','Visite musée Berbère','Thé à la menthe'],excluded:['Musée YSL (billet en option)','Repas']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27excursion%20%22Jardin%20Majorelle%22." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 ? Désert Agafay & Atlas -->
+      <div class="card reveal reveal-delay-2">
+        <img class="card-img" src="images/excursions/agafay-atlas.webp" alt="Désert Agafay et Atlas enneigé" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Désert Agafay & Atlas enneigé – Marrakech</h3>
+          <p class="card-desc">Le désert minéral d'Agafay avec en toile de fond les sommets enneigés du Haut-Atlas : un panorama saisissant aux portes de Marrakech.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> Journée complète</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 550 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Marrakech',emoji:'️',title:'Désert Agafay & Atlas',duration:'Journée complète ? 8h à 19h',difficulty:'Facile',price:'À partir de 550 MAD / pers.',description:' 30 km de Marrakech, le désert pierreux d\'Agafay offre un paysage lunaire et sauvage avec, pour décor, les sommets enneigés du Haut-Atlas. Cette excursion exclusive vous emmène en 4x4 dans ce désert miniature, pour un déjeuner berbère sous une tente nomade, une balade à dromadaire et une session de photographie devant ce panorama spectaculaire.',included:['4x4 climatisé aller-retour','Guide naturaliste','Déjeuner tente nomade','Balade dromadaire 30 min','Thé au désert'],excluded:['Activités optionnelles','Assurance annulation']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27excursion%20%22D%C3%A9sert%20Agafay%20%26%20Atlas%22." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 ? Palmeraie & Dromadaires Marrakech -->
+      <div class="card reveal reveal-delay-3">
+        <img class="card-img" src="images/excursions/palmeraie-dromadaire.webp" alt="Palmeraie et dromadaires Marrakech" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Palmeraie de Marrakech & balade en dromadaire</h3>
+          <p class="card-desc">Promenade dans la mythique palmeraie de Marrakech à dos de dromadaire, entre 150 000 palmiers et l'air pur du pré-Sahara.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> Demi-journée</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 300 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'excursion',tag:'Marrakech',emoji:'',title:'Palmeraie & dromadaires Marrakech',duration:'Demi-journée ? 9h à 13h',difficulty:'Facile',price:'À partir de 300 MAD / pers.',description:'La palmeraie de Marrakech, avec ses 150 000 palmiers-dattiers, est une oasis légendaire au nord de la ville rouge. Une balade à dos de dromadaire dans cet écrin de verdure est une expérience inoubliable : la lenteur apaisante du dromadaire, le bruissement des palmes au vent, les villas de luxe cachées dans les jardins. Un moment hors du temps.',included:['Transport aller-retour','Balade dromadaire 1h','Guide accompagnateur','Thé à la menthe'],excluded:['Photos professionnelles','Repas']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27excursion%20%22Palmeraie%20Marrakech%22." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 
+     SECTION 3 ? ACTIVITS
+ -->
+<section class="section section-activites" id="activites">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Nos Activités</div>
+        <h2 class="section-title">Sensations & aventure ? Essaouira & Marrakech</h2>
+        <p class="section-subtitle">Montgolfière au lever du soleil, quad dans la palmeraie, atelier poterie Des expériences uniques dans deux des plus belles villes du Maroc.</p>
+      </div>
+    </div>
+
+    <div class="cards-grid">
+
+      <!-- Activité 1 ? Montgolfière Marrakech -->
+      <div class="card reveal reveal-delay-1">
+        <img class="card-img" src="images/activites/montgolfiere.webp" alt="Vol en montgolfière Marrakech" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Vol en montgolfière au lever du soleil</h3>
+          <p class="card-desc">Survolez les palmeraies et la médina de Marrakech en montgolfière au lever du soleil — un moment de pure magie à 1 000 mètres.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 1h de vol</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Tous niveaux</span>
+          </div>
+          <div class="card-price">À partir de 1 500 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Marrakech',emoji:'??',title:'Vol en montgolfière ? Marrakech',duration:'1h de vol ? départ à l\'aube',difficulty:'Tous niveaux',price:'À partir de 1 500 MAD / pers.',description:'Le vol en montgolfière au lever du soleil sur Marrakech est l\'une des expériences les plus magiques du Maroc. Embarquez dans une nacelle et laissez-vous porter par le vent au-dessus de la palmeraie, des riads et des remparts ocre. L\'atmosphère silencieuse et la lumière dorée du matin créent un spectacle inoubliable. Champagne au décollage, certificat de vol à la fin.',included:['Transport aller-retour','Pilote breveté','Champagne/jus de fruits','Certificat de vol','Assurance activité'],excluded:['Photos professionnelles']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20vol%20en%20montgolfi%C3%A8re%20%C3%A0%20Marrakech." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activité 2 ? Quad & Buggy Palmeraie Marrakech -->
+      <div class="card reveal reveal-delay-2">
+        <img class="card-img" src="images/activites/quad-palmeraie.webp" alt="Quad et buggy palmeraie Marrakech" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Quad & buggy dans la palmeraie de Marrakech</h3>
+          <p class="card-desc">Adrénaline et nature : traversez la mythique palmeraie de Marrakech en quad ou buggy, entre palmiers et pistes de terre rouge.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 1h à 3h</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 400 MAD <span>/ quad</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Marrakech',emoji:'️',title:'Quad & buggy ? Palmeraie Marrakech',duration:'1h à 3h (au choix)',difficulty:'Facile ? permis non requis',price:'À partir de 400 MAD / quad',description:'La palmeraie de Marrakech avec ses 150 000 palmiers est un terrain de jeu unique pour le quad et le buggy. Des pistes balisées serpentent entre les palmiers, les puits et les petits villages berbères. Un accompagnateur vous guide tout au long du parcours. Idéal en famille, en couple ou entre amis ? même sans expérience préalable.',included:['Quad ou buggy au choix','Casque & gants','Briefing sécurité','Accompagnateur','Assurance'],excluded:['Carburant supplémentaire','Photos/vidéos session']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20quad%20dans%20la%20palmeraie%20de%20Marrakech." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activité 3 ? Atelier Poterie Essaouira -->
+      <div class="card reveal reveal-delay-3">
+        <img class="card-img" src="images/activites/poterie-medina.webp" alt="Atelier poterie Essaouira" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Atelier poterie dans la médina de Marrakech</h3>
+          <p class="card-desc">Façonnez votre propre pièce en argile sous la guidance d'un maître potier de la médina, et repartez avec votre création.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 2h</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 300 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Essaouira',emoji:'',title:'Atelier poterie ? Essaouira',duration:'2h ? 10h à 12h',difficulty:'Facile ? aucun prérequis',price:'À partir de 300 MAD / pers.',description:'Essaouira abrite une tradition potière séculaire. Dans cet atelier authentique de la médina, un maître potier vous initie aux techniques du tour à pied et du colombin. Vous créez votre propre pièce unique ? bol, vase ou tajine miniature ? que vous pourrez emporter après séchage et cuisson (expédition possible). Une expérience manuelle et créative au cur de l\'artisanat mogadori.',included:['Matériaux argile','Maître potier accompagnateur','Tablier','Thé à la menthe','Pièce créée à emporter'],excluded:['Frais d\'expédition']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20l%27atelier%20poterie%20%C3%A0%20Essaouira." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activité 4 ? Sports nautiques Essaouira -->
+      <div class="card reveal reveal-delay-1">
+        <img class="card-img" src="images/activites/wakeboard.webp" alt="Sports nautiques Essaouira" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Essaouira</span>
+          <h3 class="card-title">Wakeboard & sports nautiques – Essaouira</h3>
+          <p class="card-desc">Réveillez vos sensations sur l'Atlantique : wakeboard, ski nautique ou bouée tractée avec des moniteurs diplômés.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 1h à 2h</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Tous niveaux</span>
+          </div>
+          <div class="card-price">À partir de 450 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Essaouira',emoji:'??',title:'Wakeboard & sports nautiques',duration:'1h à 2h (au choix)',difficulty:'Tous niveaux',price:'À partir de 450 MAD / pers.',description:'Les eaux de la baie d\'Essaouira offrent un cadre exceptionnel pour les sports nautiques tractés. Que vous soyez débutant absolu ou rider confirmé, nos moniteurs diplômés s\'adaptent : wakeboard, ski nautique ou bouée gonflable pour un moment de pur amusement. Le bateau part de la plage d\'Essaouira, avec la médina comme toile de fond.',included:['Moniteur diplômé','Matériel complet','Gilet de sauvetage','Combinaison néoprène','Assurance activité'],excluded:['Photos/vidéos']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20le%20wakeboard%20%C3%A0%20Essaouira." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activité 5 ? Camp de luxe Agafay -->
+      <div class="card reveal reveal-delay-2">
+        <img class="card-img" src="images/activites/camp-luxe-agafay.webp" alt="Camp de luxe désert Agafay" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Marrakech</span>
+          <h3 class="card-title">Nuit en camp de luxe – Désert Agafay</h3>
+          <p class="card-desc">Dormez sous les étoiles dans un camp de luxe au cur du désert Agafay, avec vue sur le Haut-Atlas et dîner berbère au feu de camp.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 1 nuit</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 1 200 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Marrakech',emoji:'',title:'Nuit en camp de luxe ? Agafay',duration:'1 nuit ? arrivée 16h, départ 10h',difficulty:'Facile',price:'À partir de 1 200 MAD / pers.',description:'Le désert Agafay à 30 minutes de Marrakech abrite des camps de luxe qui réinventent l\'expérience nomade. Tentes berbères décorées, lits confortables, salle de bain privée, terrasse avec vue sur l\'Atlas enneigé Le soir, feu de camp, musique gnaoua et dîner marocain gastronomique sous un ciel étoilé exceptionnel. Une nuit hors du temps.',included:['Transport aller-retour','Tente de luxe (lit double)','Dîner & petit-déjeuner','Feu de camp & musique','Activités au camp (dromadaire, balade)'],excluded:['Boissons alcoolisées','Activités optionnelles supplémentaires']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20la%20nuit%20en%20camp%20de%20luxe%20au%20d%C3%A9sert%20Agafay." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Activité 6 ? Souks & Artisanat Essaouira -->
+      <div class="card reveal reveal-delay-3">
+        <img class="card-img" src="images/activites/souks-artisanat.webp" alt="Souks et artisanat Essaouira" loading="lazy" />
+        <div class="card-body">
+          <span class="card-tag">Essaouira</span>
+          <h3 class="card-title">Souks & artisanat – Visite guidée des ateliers</h3>
+          <p class="card-desc">Découvrez les artisans de la médina : luthiers du bois thuya, brodeurs, ébénistes et galeries d'art contemporain marocain.</p>
+          <div class="card-meta">
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> 3h</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg> Facile</span>
+          </div>
+          <div class="card-price">À partir de 220 MAD <span>/ pers.</span></div>
+          <div class="card-actions">
+            <button class="btn btn-outline-gold btn-sm" onclick="openModal({type:'activite',tag:'Essaouira',emoji:'?',title:'Souks & ateliers artisans ? Essaouira',duration:'3h ? 10h à 13h',difficulty:'Facile',price:'À partir de 220 MAD / pers.',description:'Essaouira est réputée dans le monde entier pour l\'excellence de ses artisans. Cette visite guidée vous emmène dans les ateliers cachés de la médina : les luthiers qui fabriquent guembris et sintirs à partir du bois thuya, les brodeurs aux gestes précis, les bijoutiers berbères. Votre guide vous aide à distinguer l\'artisanat authentique et à négocier les meilleures pièces.',included:['Guide expert artisanat','Visite 3 ateliers minimum','Dégustation thé à la menthe','Aide aux achats & négociation'],excluded:['Achats personnels','Repas']}, this)">
+              Détails
+            </button>
+            <a href="https://wa.me/21266331750?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20la%20visite%20des%20souks%20et%20artisans%20d%27Essaouira." target="_blank" class="btn btn-gold btn-sm">Réserver</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- 
+     SECTION 4 ? TRANSFERTS
+ -->
+<section class="section section-transferts" id="transferts">
+  <div class="section-inner">
+    <div class="section-head reveal" style="justify-content:center;text-align:center;flex-direction:column;align-items:center">
+      <div class="section-label">Transport Touristique</div>
+      <h2 class="section-title">Notre flotte de véhicules</h2>
+      <p class="section-subtitle" style="max-width:680px">Des véhicules confortables, climatisés et entretenus — avec chauffeur professionnel inclus pour tous vos transferts et excursions au Maroc.</p>
+    </div>
+
+    <div class="fleet-grid reveal">
+
+      <div class="fleet-card">
+        <div class="fleet-img-wrap">
+          <img src="images/vehicles/kodiaq.webp" alt="KIA" loading="lazy" />
+          <span class="fleet-badge">3 passagers</span>
+        </div>
+        <div class="fleet-body">
+          <h3 class="fleet-name">KIA</h3>
+          <p class="fleet-desc">Berline premium idéale pour les couples et petits groupes. Coffre spacieux, climatisation, confort de haut standing pour vos transferts privés.</p>
+          <ul class="fleet-features">
+            <li>Climatisation</li>
+            <li>WiFi à bord</li>
+            <li>Eau offerte</li>
+            <li>Chauffeur privé</li>
+          </ul>
+          <a class='btn btn-gold' href='/transferts' style='width:100%;justify-content:center'>Réserver</a>
+        </div>
+      </div>
+
+      <div class="fleet-card">
+        <div class="fleet-img-wrap">
+          <img src="images/vehicles/vito.webp" alt="Mercedes Vito" loading="lazy" />
+          <span class="fleet-badge">7 passagers</span>
+        </div>
+        <div class="fleet-body">
+          <h3 class="fleet-name">Mercedes Vito</h3>
+          <p class="fleet-desc">Minivan premium pour les familles et groupes jusqu'à 7 personnes. Intérieur raffiné, sièges capitaines, idéal pour les circuits et excursions à la journée.</p>
+          <ul class="fleet-features">
+            <li>7 places</li>
+            <li>Climatisation</li>
+            <li>Bagages volumineux</li>
+            <li>Chauffeur privé</li>
+          </ul>
+          <a class='btn btn-gold' href='/transferts' style='width:100%;justify-content:center'>Réserver</a>
+        </div>
+      </div>
+
+      <div class="fleet-card">
+        <div class="fleet-img-wrap">
+          <img src="images/vehicles/sprinter.webp" alt="Mercedes Sprinter" loading="lazy" />
+          <span class="fleet-badge">17 passagers</span>
+        </div>
+        <div class="fleet-body">
+          <h3 class="fleet-name">Mercedes Sprinter</h3>
+          <p class="fleet-desc">Minibus grand confort pour les groupes jusqu'à 18 personnes. Parfait pour les séminaires d'entreprise, groupes touristiques et transferts aéroport collectifs.</p>
+          <ul class="fleet-features">
+            <li>17 places</li>
+            <li>Climatisation</li>
+            <li>Groupes & séminaires</li>
+            <li>Chauffeur professionnel</li>
+          </ul>
+          <a class='btn btn-gold' href='/transferts' style='width:100%;justify-content:center'>Réserver</a>
+        </div>
+      </div>
+
+      <div class="fleet-card">
+        <div class="fleet-img-wrap">
+          <img src="images/vehicles/renault-master.webp" alt="Renault Master" loading="lazy" />
+          <span class="fleet-badge">27 passagers</span>
+        </div>
+        <div class="fleet-body">
+          <h3 class="fleet-name">Renault Master</h3>
+          <p class="fleet-desc">Minibus grande capacité idéal pour les grands groupes jusqu'à 27 personnes. Parfait pour les circuits touristiques, transferts collectifs aéroport et événements d'entreprise.</p>
+          <ul class="fleet-features">
+            <li>27 places</li>
+            <li>Climatisation</li>
+            <li>Grands groupes & séminaires</li>
+            <li>Chauffeur professionnel</li>
+          </ul>
+          <a class='btn btn-gold' href='/transferts' style='width:100%;justify-content:center'>Réserver</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section section-temoignages" id="avis">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center;max-width:580px;margin:0 auto 52px">
+      <div class="section-label" style="justify-content:center">Témoignages</div>
+      <h2 class="section-title">Ce que disent nos clients</h2>
+      <p class="section-subtitle" style="margin:0 auto">Des voyageurs du monde entier nous font confiance pour vivre des expériences uniques à Essaouira.</p>
+    </div>
+
+    <style>
+      .testi-wrap { position:relative; }
+      .testi-track-outer { overflow:hidden; }
+      .testi-track { display:flex; transition:transform .45s cubic-bezier(.4,0,.2,1); }
+      .testi-card {
+        flex:0 0 calc(33.333% - 16px); margin:0 8px;
+        background:var(--black2); border:1px solid var(--border);
+        border-radius:16px; padding:28px; display:flex; flex-direction:column; gap:16px;
+      }
+      @media(max-width:900px){ .testi-card { flex:0 0 calc(50% - 16px); } }
+      @media(max-width:600px){ .testi-card { flex:0 0 calc(100% - 16px); } }
+      .testi-stars { display:flex; gap:3px; }
+      .testi-stars svg { width:16px; height:16px; fill:var(--gold); }
+      .testi-text { font-size:14px; color:var(--gray); line-height:1.75; font-style:italic; flex:1; }
+      .testi-author { display:flex; align-items:center; gap:12px; margin-top:auto; }
+      .testi-avatar { width:40px; height:40px; border-radius:50%; background:rgba(201,168,76,0.15); border:1px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; color:var(--gold); flex-shrink:0; }
+      .testi-name { font-size:14px; font-weight:700; color:var(--white); }
+      .testi-origin { font-size:12px; color:var(--gray); }
+      .testi-tag { font-size:11px; font-weight:600; color:var(--gold); background:rgba(201,168,76,0.1); border:1px solid rgba(201,168,76,0.2); border-radius:999px; padding:2px 10px; display:inline-block; margin-bottom:4px; }
+      .testi-controls { display:flex; align-items:center; justify-content:center; gap:16px; margin-top:32px; }
+      .testi-btn { background:var(--black2); border:1px solid var(--border); border-radius:50%; width:40px; height:40px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--white); transition:border-color .2s,background .2s; }
+      .testi-btn:hover { border-color:var(--gold); background:rgba(201,168,76,0.1); }
+      .testi-dots { display:flex; gap:8px; }
+      .testi-dot { width:8px; height:8px; border-radius:50%; background:var(--border); cursor:pointer; transition:background .2s,transform .2s; border:none; padding:0; }
+      .testi-dot.active { background:var(--gold); transform:scale(1.3); }
+    </style>
+
+    <div class="testi-wrap">
+      <div class="testi-track-outer">
+        <div class="testi-track" id="testiTrack">
+
+          <!-- 1 – Transfert / Darija-Français -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Transfert</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« Wallah service d'enfer ! Le chauffeur ja f'l-waqt et la voiture kanet propre bzzaf. Transfert men Marrakech l Essaouira b toute sécurité. Chokran Élite Mogador, ghadi nrj3 m3akom ! »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">YB</div>
+              <div><div class="testi-name">Youssef Benali</div><div class="testi-origin">Casablanca, Maroc</div></div>
+            </div>
+          </div>
+
+          <!-- 2 – Excursion / Français touriste -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Excursion</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« Une expérience absolument exceptionnelle. Le transfert depuis Marrakech s'est fait dans une voiture luxueuse et le chauffeur était d'une courtoisie remarquable. Je recommande vivement Élite Mogador ! »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">SL</div>
+              <div><div class="testi-name">Sophie Laurent</div><div class="testi-origin">Paris, France</div></div>
+            </div>
+          </div>
+
+          <!-- 3 – Activité / English -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Activité</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« The surf lesson at Sidi Kaouki was incredible! Our instructor was patient and professional. We also booked a sunset excursion — breathtaking. Will definitely use Élite Mogador again. »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">JM</div>
+              <div><div class="testi-name">James Mitchell</div><div class="testi-origin">London, UK</div></div>
+            </div>
+          </div>
+
+          <!-- 4 – Staff / Darija-Français -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Équipe</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« L'équipe d'Élite Mogador hia zwina bzzaf ! Le guide dyalna kan friendly wachi professional. Kol shi mcha mzyan — l'excursion f'la médina kanet magnifique. Merci bzaf, vraiment ! »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">NE</div>
+              <div><div class="testi-name">Nadia El Fassi</div><div class="testi-origin">Rabat, Maroc</div></div>
+            </div>
+          </div>
+
+          <!-- 5 – Transfert aéroport / Français touriste -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Transfert Aéroport</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« Prise en charge impeccable à l'aéroport d'Agadir. Le panneau nominatif, le sourire du chauffeur, le véhicule climatisé… tout était parfait. Élite Mogador, c'est le luxe sans prétention. »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">MB</div>
+              <div><div class="testi-name">Marie Bertrand</div><div class="testi-origin">Lyon, France</div></div>
+            </div>
+          </div>
+
+          <!-- 6 – Activité montgolfière / English -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Activité</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« The hot air balloon ride over the Agafay desert at sunrise was absolutely magical. The team at Élite Mogador handled every detail perfectly — from the pick-up in Marrakech to the champagne landing. Truly unforgettable. »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">EW</div>
+              <div><div class="testi-name">Emma Wilson</div><div class="testi-origin">New York, USA</div></div>
+            </div>
+          </div>
+
+          <!-- 7 – Excursion médina / Darija-Français -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Excursion</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« La visite de la médina d'Essaouira m3a le guide dyalna kanet top niveau ! Kan 3aref kol haja — l'histoire, les artisans, les spots cachés. Vraiment une belle journée, 3ajbatni bzzaf. »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">KA</div>
+              <div><div class="testi-name">Karim Alaoui</div><div class="testi-origin">Marrakech, Maroc</div></div>
+            </div>
+          </div>
+
+          <!-- 8 – Staff & overall / English -->
+          <div class="testi-card">
+            <div><span class="testi-tag">Équipe & Service</span></div>
+            <div class="testi-stars">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <p class="testi-text">« From the very first WhatsApp message to the final drop-off, the team was responsive, friendly and professional. The quad ride in the Palmeraie was a highlight of our entire Morocco trip. 5 stars without hesitation! »</p>
+            <div class="testi-author">
+              <div class="testi-avatar">LT</div>
+              <div><div class="testi-name">Liam Thompson</div><div class="testi-origin">Dublin, Ireland</div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="testi-controls">
+        <button class="testi-btn" id="testiPrev" aria-label="Précédent">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <div class="testi-dots" id="testiDots"></div>
+        <button class="testi-btn" id="testiNext" aria-label="Suivant">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <script>
+    (function(){
+      var track = document.getElementById('testiTrack');
+      var dotsWrap = document.getElementById('testiDots');
+      var cards = track.children;
+      var total = cards.length;
+      var current = 0;
+      var visible = window.innerWidth <= 600 ? 1 : window.innerWidth <= 900 ? 2 : 3;
+      var slides = total - visible + 1;
+
+      for(var i = 0; i < slides; i++){
+        var d = document.createElement('button');
+        d.className = 'testi-dot' + (i===0?' active':'');
+        d.setAttribute('aria-label', 'Slide '+(i+1));
+        (function(idx){ d.addEventListener('click', function(){ goTo(idx); }); })(i);
+        dotsWrap.appendChild(d);
+      }
+
+      function goTo(idx){
+        current = Math.max(0, Math.min(idx, slides-1));
+        var cardW = cards[0].offsetWidth + 16;
+        track.style.transform = 'translateX(-' + (current * cardW) + 'px)';
+        dotsWrap.querySelectorAll('.testi-dot').forEach(function(d,i){ d.classList.toggle('active', i===current); });
+      }
+
+      document.getElementById('testiPrev').addEventListener('click', function(){ goTo(current-1); });
+      document.getElementById('testiNext').addEventListener('click', function(){ goTo(current+1); });
+
+      var timer = setInterval(function(){ if(current+1 < slides) goTo(current+1); else clearInterval(timer); }, 5000);
+      track.addEventListener('mouseenter', function(){ clearInterval(timer); });
+
+      window.addEventListener('resize', function(){
+        visible = window.innerWidth <= 600 ? 1 : window.innerWidth <= 900 ? 2 : 3;
+        slides = total - visible + 1;
+        goTo(0);
+      });
+    })();
+    </script>
+  </div>
+</section>
+
+<section class="section section-galerie" id="galerie">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center;max-width:580px;margin:0 auto 52px">
+      <div class="section-label" style="justify-content:center">Galerie</div>
+      <h2 class="section-title">Essaouira en images</h2>
+      <p class="section-subtitle" style="margin:0 auto">La magie de Mogador capturée par nos soins et nos clients.</p>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <div class="gallery-item">
+        <img src="images/gallery/gallery-essaouira.webp" alt="Port d'Essaouira" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+        <div class="gallery-overlay"><svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/gallery-marrakech.webp" alt="Médina de Marrakech" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+        <div class="gallery-overlay"><svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/gallery-sahara.webp" alt="Dunes du Sahara" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+        <div class="gallery-overlay"><svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery/gallery-chefchaouen.webp" alt="Chefchaouen – La ville bleue" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+        <div class="gallery-overlay"><svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="blog" style="background:var(--black2)">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Blog &amp; Conseils</div>
+        <h2 class="section-title">Inspirations de voyage</h2>
+        <p class="section-subtitle">Découvrez Essaouira à travers nos articles, conseils pratiques et guides de voyage.</p>
+      </div>
+      <a class='btn btn-outline-gold btn-sm' href='/blog' style='white-space:nowrap;flex-shrink:0'>Voir tous les articles</a>
+    </div>
+    <div class="blog-carousel-wrapper reveal">
+      <button class="blog-carousel-btn blog-carousel-prev" aria-label="Précédent"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg></button>
+      <div class="blog-carousel-track-wrap">
+        <div class="blog-carousel-track">
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-essaouira-port.jpg" alt="Port d'Essaouira" loading="lazy" /><div class="card-body"><span class="card-tag">Culture</span><span class="blog-date">15 Avril 2025</span><h3 class="card-title">Essaouira : 10 incontournables à faire absolument</h3><p class="card-desc">De la médina aux plages de kitesurf, en passant par le festival Gnaoua — notre guide complet pour ne rien rater de Mogador.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-kitesurf.jpg" alt="Kitesurf Essaouira" loading="lazy" /><div class="card-body"><span class="card-tag">Activités</span><span class="blog-date">28 Mars 2025</span><h3 class="card-title">Surf au Maroc : pourquoi Essaouira est le spot idéal</h3><p class="card-desc">Vents constants, vagues parfaites, eau tempérée toute l'année. Voici pourquoi les surfeurs du monde entier choisissent Essaouira.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-gastronomie.jpg" alt="Gastronomie Essaouira" loading="lazy" /><div class="card-body"><span class="card-tag">Gastronomie</span><span class="blog-date">5 Mars 2025</span><h3 class="card-title">La gastronomie d'Essaouira : 8 plats à absolument goûter</h3><p class="card-desc">Sardines grillées au port, chermoula de la médina, couscous au poisson… Un voyage gustatif inoubliable dans la cuisine de Mogador.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-ramparts.jpg" alt="Remparts Essaouira" loading="lazy" /><div class="card-body"><span class="card-tag">Culture</span><span class="blog-date">18 Février 2025</span><h3 class="card-title">L'histoire fascinante de la médina d'Essaouira</h3><p class="card-desc">Mogador, porte de l'Afrique. Retour sur l'histoire de cette cité fortifiée fondée au XVIIIe siècle par le sultan Sidi Mohammed ben Abdallah.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-argan.jpg" alt="Huile d'argan" loading="lazy" /><div class="card-body"><span class="card-tag">Conseils</span><span class="blog-date">2 Février 2025</span><h3 class="card-title">Huile d'argan : guide d'achat pour éviter les faux</h3><p class="card-desc">Comment distinguer la vraie huile d'argan bio d'une imitation ? Nos conseils d'expert pour ramener le meilleur souvenir de votre séjour.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+          <div class="blog-carousel-card card"><img class="card-img" src="images/blog/blog-gnaoua.jpg" alt="Festival Gnaoua" loading="lazy" /><div class="card-body"><span class="card-tag">Culture</span><span class="blog-date">10 Janvier 2025</span><h3 class="card-title">Festival Gnaoua : tout ce qu'il faut savoir</h3><p class="card-desc">Le Festival Gnaoua et Musiques du Monde d'Essaouira est l'un des plus grands festivals d'Afrique. Dates, programme, conseils pratiques.</p><a class='btn btn-outline-gold btn-sm' href='/blog' style='margin-top:8px'>Lire la suite</a></div></div>
+        </div>
+      </div>
+      <button class="blog-carousel-btn blog-carousel-next" aria-label="Suivant"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></button>
+    </div>
+    <div class="blog-carousel-dots reveal"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer class="footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <div>
+        <div class="footer-brand-logo">
+          <img src="élite mogador logo.png" alt="Élite Mogador" />
+        </div>
+        <p class="footer-brand-desc">
+          Élite Mogador, votre partenaire de confiance pour une expérience touristique haut de gamme à Essaouira. Transferts privés, excursions guidées, activités exclusives.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://wa.me/21266331750" target="_blank" class="social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Navigation</div>
+        <div class="footer-links">
+          <a href='/'>Accueil</a>
+          <a href='/transferts'>Transferts</a>
+          <a href='/blog'>Blog</a>
+          <a href='/a-propos'>À Propos</a>
+          <a href='/contact'>Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Services</div>
+        <div class="footer-links">
+          <a href="#excursions">Excursions</a>
+          <a href="#activites">Activités</a>
+          <a href="#transferts">Transferts Aéroport</a>
+          <a href="#transferts">Transferts Inter-villes</a>
+          <a href="#transferts">Circuits Sur Mesure</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Essaouira (Mogador), Maroc
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          +212 66 331 750
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          contact@elite-mogador.com
+        </div>
+        <div style="margin-top:20px">
+          <a href="https://wa.me/21266331750?text=Bonjour%20%C3%89lite%20Mogador%2C%20je%20souhaite%20avoir%20plus%20d%27informations." target="_blank" class="btn btn-gold btn-sm">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Nous contacter
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /footer-grid -->
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Élite Mogador – Tous droits réservés</p>
+      <div class="footer-legal">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">CGV</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── WHATSAPP FLOAT ── -->
+<a href="https://wa.me/21266331750?text=Bonjour%20%C3%89lite%20Mogador%2C%20je%20souhaite%20avoir%20plus%20d%27informations%20sur%20vos%20services." target="_blank" class="wa-float" aria-label="Contacter sur WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23/build/js/intlTelInput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

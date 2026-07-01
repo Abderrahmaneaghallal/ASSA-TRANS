@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Circuit Villes Impériales Marocaines (6j)",
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Agadir - Marrakech (260 Km) | Départ d’Agadir à 7h du matin et l’arrivée à Marrakech aux environs de 10h, On commence par la visite des monuments historiques : Les Tombeaux des Saâdiens, Le Palais Bahia, Le Palais Badii, Le pavillon de la Mènara, Les jardins et la mosquée Koutoubia et Le Jardin Majorelle. aux environs de 13h, déjeuner au Restaurant (vue sur la Koutoubia), et après la visite de la fameuse place de Jamaâ el Fna (classée patrimoine auditif mondiale par l’UNESCO). Temps libre pour la visite des souks, puis le soir, admirer Marrakech By Night et la place de Jamaà el Fna et son ambiance festive (un immense restaurant traditionnel en plein air)…"
+      },
+      {
+        "day": 2,
+        "description": "Marrakech - Casa - Rabat ! (330 Km) | Dés 9h du matin on prends la route de Casablanca, Métropole de plus de 3 millions d’habitants la plus grande ville du Maroc c’est le centre économique national. Visite de la fameuse Mosquée Hassan II, (Horaires de visite : 9H, 10H, 11H et 14H tous les jours sauf le vendredi) Déjeuner sur place, puis cap sur Rabat la capitale administrative du Royaume, après une heure de route .. on arrive et on commence par les monuments historiques , visite du Palais Royal , Le Mausolée Mohamed V , La Tour Hassan et La Kasbah des Oudayas, La Nécropole de Chellah…"
+      },
+      {
+        "day": 3,
+        "description": "Rabat - Meknès - Fès ! (240 Km) | Arrivée à Meknès la capital de Moulay Ismail à 10h du matin, on commence par la visite de la Médina (la vieille ville) et le Mausolée de Moulay Ismail, les Mosquées, le Musées, les Remparts et les Souks… et aussi de la plus belle porte du Maroc : Bab El Mansour. Meknès et sa voisine Fès, les capitales des Sultans du Maroc depuis la nuit des temps… Continuation vers la ville sainte de Moulay Idriss Zerhoun et le site Romain de Volubilis…"
+      },
+      {
+        "day": 4,
+        "description": "Fès (0Km) | Découverte Culturelle et Historique de la plus ancienne des villes du Royaume, Fès, Visite des différentes parties de la ville : Fès Elbali, le Palais Royal, les Remparts, le Souk authentique, le Quartier des tanneurs, les petites ruelles étroites. Déjeuner dans la Médina de Fès, puis, visite des monuments : l’école coranique Bouàanania, la mosquée Karaouiyine, le tombeau de Moulay Idriss II fondateur de Fès, tombeau de Sidi Ahmed Tijani et la fontaine…"
+      },
+      {
+        "day": 5,
+        "description": "Fès - Cascades Ouzoud (400Km) | Départ à 8h du matin en direction de la ville d’Ifrane (Stations de Ski), Azrou, puis le Lac Bin El Ouidane, un magnifique panorama de différents paysage montagneux nous attend. Arrêts et Photos sur le lac entouré des montagne du Moyen Atlas. Arrivée et Déjeuner à Beni Mellal. puis Cap sur les Cascades d’Ouzoud. les plus belles et les plus hautes chutes d’eau du Maroc, (100 m de hauteur) avec un débit quasi permanent et important, mais au moment de la fonte des neiges au printemps, le débit augmente. Descente à pied des escalier pour admirer la grandeur et la splendeur de ces Cascades, (pourquoi pas un thé à la menthe en face)…"
+      },
+      {
+        "day": 6,
+        "description": "Ouzoud - Marrakech - Agadir (420Km) | Départ à 9h du matin en direction de Marrakech (Déjeuner), l’après midi. Rentrer à Agadir."
+      }
+    ],
+    "included": [
+      "Transport",
+      "Conducteur / Guide Francophone",
+      "Nuitée (DP) : Hôtel 4* - Riad"
+    ],
+    "excluded": [
+      "Boissons",
+      "Repas de Midi",
+      "Entrée au monuments historiques",
+      "Guides : Marrakech, Rabat, Meknès, Fès",
+      "Guide & entrée au site romain Volubilis"
+    ]
+  },
+  {
+    "title": "Circuit Grand Sud Marocain 4×4 – Zagora (6j)",
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Agadir – Ouarzazat (380 Km) | Départ d’Agadir à 9h du matin.. visite de Taroudant (Médina, Souks, Remparts, Palais Salam).. déjeuner à la palmeraie de Tiout, puis continuer jusqu’au ksar d’Ait Benhaddou (classé patrimoine mondial de l’unesco depuis 1987).. visite du ksar, puis on rentre à Ouarzazat …"
+      },
+      {
+        "day": 2,
+        "description": "Ouarzazat – Tinghir (250 Km) | Dès 9h du matin, on prend la route de Skoura – et El Kalaa M’Gouna (Vallée des roses), visite de la Kasbah Amridil (passage par une piste qui traverse des champs et des villages) .. et puis la vallée de Dadès (route des mille kasbahs).. arrivée à Boumaln Dadès.. puis, visite des Gorges de Dadès, (déjeuner), puis l’après midi, on visite aussi le Gorges de Todgha, puis on rentre à Tinghir…"
+      },
+      {
+        "day": 3,
+        "description": "Tinghir – Zagora - Erg Lihoudi (330 Km) | Départ à 9h du matin vers Alnif, puis on arrive à Zagora. (Déjeuner) puis on continue vers le sud jusqu’au village de Tamegroute, visite de la fabrique artisanale de poterie verte locale, la kasbah souterraine, la bibliothèque coranique, puis continuer jusqu’au dunes de Tinfou, arrêt et photos. puis on continue en direction du sud, et juste avant le village M’Hamid El Ghizlane, on prend une piste (cailloux et sable) (10 km). pour arriver finalement au bivouac au cœur des Dunes dorées de l’Erg Lihoudi et admirer le fameux coucher de soleil sur les dunes…"
+      },
+      {
+        "day": 4,
+        "description": "Erg Lihoudi – Tamegroute – Agdz (160 Km) | Découverte du désert et route vers Agdz."
+      },
+      {
+        "day": 5,
+        "description": "Agdz – Taroudant (220 Km) | Traversée de la vallée du Draa."
+      },
+      {
+        "day": 6,
+        "description": "Taroudant – Agadir (80Km) | Retour vers Agadir !"
+      }
+    ],
+    "included": [
+      "Le Transport",
+      "Le Chauffeur / Guide Francophone",
+      "Nuitée : Hôtel 4* - Riad - Bivouac (DP)"
+    ],
+    "excluded": [
+      "Les Boissons",
+      "Le Repas de Midi"
+    ]
+  },
+  {
+    "title": "9 JOURS GRAND CIRCUIT DES VILLES IMPÉRIALES & DU SUD DU MAROC",
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "MARRAKECH – CASABLANCA - RABAT | Généralement, la plupart des riads et maisons d'hôtes servent le petit-déjeuner soit sur les toits-terrasses, soit dans les belles cours, et généralement, le petit-déjeuner commence à 9 heures du matin. Ainsi notre voyage commencera après votre petit-déjeuner ; nous vous rejoindrons à Riyad et vous aiderons avec les bagages. Le voyage prendra comme premier point Casablanca, la célèbre ville, la capitale économique du Maroc et l'une des plus grandes villes marocaines. Il faut compter 3 heures de route en traversant l'autoroute. Une fois arrivés sur place, nous vous ferons visiter la célèbre Masjid (lieu de prière) de Hassan II et la Kasbah des Oudayas. Le déjeuner aura lieu dans un restaurant approprié (selon vos goûts et votre choix). Après cela, nous nous dirigeons vers Rabat (1h de route) pour y passer la nuit dans un hôtel ou une maison d'hôtes."
+      },
+      {
+        "day": 2,
+        "description": "RABAT – MEKNES – VOLUBILIS – FES: | Le deuxième jour de ce voyage commencera après le petit-déjeuner sur votre lieu d'hébergement. Nous quitterons Rabat pour Meknès, une autre ville impériale importante, connue dans l'Antiquité comme la capitale ismaélienne sous la dynastie de Moulay Ismail (l'un des dirigeants alaouites). A Meknès, le célèbre Bab Mansour vous accueillera d'abord, puis vous comblerez votre envie de voyager dans le magnifique char de Sahrij Souani, puis nous visiterons la crête de Moulay Ismail. Après le déjeuner, nous nous dirigerons vers Volubilis, à seulement une heure de Meknès, mais c'est comme si vous pénétriez dans le portail du temps. Une fois arrivé, vous apprécierez les gravures romaines laissées à jamais depuis 25 avant JC. La tendre brise vous racontera mille histoires des lieux. De nombreux concerts de musique spirituelle ont été créés dans cette zone. Après cela, et à travers les contreforts du Rif, nous arriverons à Fès dans l'après-midi. Vous passerez la nuit dans un luxueux Riyad dans la vieille médina."
+      },
+      {
+        "day": 3,
+        "description": "VISITE GUIDÉE À LA JOURNÉE DE LA VILLE DE FÈS | Comme d'habitude, le programme commence après le petit-déjeuner pour explorer la plus ancienne ville du Maroc. Nous commencerons par nous promener dans les rues étroites de l'ancienne médina (l'accès en voiture n'est pas autorisé donc la majeure partie de la visite se fera à pied). Commençons par visiter le Palais de la Porte Royale : le quartier général juif et le premier Mellah jamais construit au Maroc au XVIe siècle. Nous veillerons à ce que vous visitiez tous les sites importants qui revêtent une importance culturelle et historique, notamment l'université de Qaraouine (le bâtiment le plus ancien de la région), les tanneries, le musée Attarine et le sanctuaire de Moulay Idriss."
+      },
+      {
+        "day": 4,
+        "description": "FES – IFRANE – AZROU – ZIZ VALLEY- MERZOUGA | Après le petit-déjeuner dans votre riad, nous quitterons Fès en direction de Merzouga via Midelt et la vallée du Ziz. Nous commencerons la journée par la visite du village d’Ifrane, magnifique village de montagne surnommé la « Suisse marocaine », tant il se distingue des autres villes du Maroc. Tout au long du trajet, vous découvrirez le Moyen Atlas et le Haut Atlas, avec un arrêt à Azrou pour prendre des photos dans un charmant village berbère, au cœur de la plus grande forêt du Maroc. Le voyage se poursuivra vers Midelt à travers de longues falaises et de superbes paysages de l’Atlas. Ensuite, en empruntant le fascinant col de Tiz Ntalghmat et en passant par les gorges du Ziz, vous profiterez des panoramas naturels du Haut Atlas. Il est émouvant de voir comment les couleurs du paysage passent du vert aux tons sahariens à l’approche d’Errachidia. Arrêt déjeuner, puis nous continuerons à travers la luxuriante vallée du Ziz. En route vers Merzouga, nous visiterons Erfoud et Rissani, avant d’arriver à Merzouga en fin d’après-midi. Comme d’habitude, un thé local à la menthe bien frais vous attendra pour vous souhaiter la bienvenue."
+      },
+      {
+        "day": 5,
+        "description": "JOURNÉE GUIDÉE À MERZOUGA : VISITE DU VILLAGE ET BALADE À CHAMEAU | Nous explorerons la région de Merzouga après votre petit-déjeuner. vous visiterez le peuple Gnawa, originaire du Soudan (esclaves dans l'Antiquité). Vous serez découvert pour votre style de vie et votre musique spirituelle qui vous emmènera dans un autre monde. Non loin se trouve le lac de Merzouga avec sa célèbre population d'oiseaux. Au programme également la visite de quelques vieilles maisons berbères où l'on peut trouver des articles généralement plus chers dans les grandes villes. Balade à dos de chameau l'après-midi, guidé par un guide expérimenté, vous découvrirez la mer de sable doré à Merzouga. La nuit tombée, un dîner vous sera servi dans un cadre romantique juste devant votre tente (hautement équipée)."
+      },
+      {
+        "day": 6,
+        "description": "MERZOUGA – ERFOUD – RISSANI – TINJDAD – GORGES DU TODRA – VALE DOS DADOS : | Cette journée commencera très tôt. Votre guide chameau vous réveillera tôt afin que vous puissiez être à l'heure pour profiter du lever du soleil, peut-être le meilleur lever de soleil jamais vu. Après cela, lors d'une balade à dos de chameau, vous vous rendrez au village de Merzouga pour profiter de la beauté spectaculaire des dunes de l'Erg Chebbi : les dunes colorées continuent de changer harmonieusement comme si le soleil jouait de la musique sur ces dunes. Le petit-déjeuner sera servi à Riyad et à l'extérieur à Rissani, Tinghir et dans les gorges du Todra, les gorges les plus hautes et les plus droites du Maroc. Le déjeuner sera servi au cœur de ces gorges mystiques et nous continuerons vers la vallée du Dadès où les majestueux châteaux de sable et de rochers forment un paysage exceptionnel nommé les orteils des singes. Vous passerez votre nuit dans un hôtel ou une Kasbah dans les gorges du Dadès. Dans ce lieu, la configuration change au fil du temps, l'évolution du soleil dans le ciel décorera les gorges en conséquence et vous laissera émerveillé par le merveilleux paysage."
+      },
+      {
+        "day": 7,
+        "description": "GORGES DU DADES – VALLÉE DES ROSE – SKOURA – OUARZAZATE – AIT BEN HADDOU – MARRAKECH : | Le voyage débutera après votre petit-déjeuner vers la vallée du Dadès, la vallée des Roses – Kalâat Mgouna- et Ouarzazate. Du chemin vers la vallée du Dadès, vous trouverez le chemin de milliers de Kasbahs. Cela vous permettra de prendre de magnifiques photos car la nature vous laissera prisonnier sous son charme. Nous nous arrêterons à Kalâat Mgouna, la capitale de Roses, et le voyage se déroulera à travers l'oasis de palmiers de Skoura. De retour à Ouarzazate, le déjeuner sera servi dans un restaurant typique, puis nous nous dirigerons vers la célèbre Kasbah Ait Ben Haddou, les excellentes maisons en terre battue construites au 18ème siècle sous l'ordre du roi de Marrakech de l'époque, Ethami Glaoui. . Le voyage vous mènera le long de la route Tizi n Tichka et à travers les montagnes de l'Atlas pour finalement arriver à Marrakech."
+      },
+      {
+        "day": 8,
+        "description": "VISITE GUIDÉE À MARRAKECH | Après cela, votre petit-déjeuner vous sera servi au Riyad, nous commencerons à explorer la ville de Marrakech, la ville rouge, la ville de la joie, comme les locaux aiment la nommer. Le guide vous rejoindra dans votre Riyad et veillera à ce que vous visitiez tous les lieux et coins qui ont une importance historique et culturelle. Cette visite comprendra les tombeaux saadiens, le palais de la Bahia, le palais Badii ainsi que l'ancienne école coranique : la médersa Ben Youssef. Le déjeuner se fera dans l'un des restaurants proches du palais et l'après-midi sera consacré aux jardins. Ce qui fait que les locaux considèrent Marrakech comme la ville de la joie est certainement dû à l'esprit léger et doux de ses habitants ainsi qu'aux jardins répartis dans la ville rouge ; A savoir le jardin Majorelle (finalement racheté par Yves Saint Laurent), le jardin de la Ménara et les jardins de la Koutoubia. Le dîner peut être réservé dans l'un des différents restaurants de charme de la ville. Après le dîner, vous serez émerveillés par les senteurs, la musique et l'ambiance trépidante de la place Jamâa El Fna, où se rassemblent tous les conteurs, les porteurs de fortune, les femmes au henné, les charmeurs de serpents et les marchands de produits alimentaires et de beauté du pays. différentes régions du Maroc. Après un si long voyage et une si longue journée, nous vous déposerons pour profiter de la dernière nuit dans votre hôtel de luxe."
+      },
+      {
+        "day": 9,
+        "description": "Départ | En fonction de votre horaire de vol, notre chauffeur se fera un plaisir de venir vous chercher deux heures avant le vol et vous déposera à l'aéroport avec vos bagages et, espérons-le, une grande masse de beaux souvenirs à raconter à vos proches pendant les vacances et en réunions de famille."
+      }
+    ],
+    "included": [
+      "Véhicules climatisés & Chauffeur professionnel",
+      "Gasoil & assurance",
+      "Accès Wi-Fi",
+      "Bouteilles d'eau minérale",
+      "Coffre-fort/casier de rangement",
+      "1 nuit à Rabat avec petit-déjeuner inclus",
+      "2 nuits à Fès avec petit-déjeuner inclus",
+      "2 nuits dans le désert de Merzouga, avec balade à dos de dromadaire, dîner, feu de camp et spectacle nomade.",
+      "1 nuit aux gorges du Dadès",
+      "2 nuits à Marrakech",
+      "notre assistance"
+    ],
+    "excluded": []
+  },
+  {
+    "title": "Circuit Grand Sud Marocain – Zagora (3j)",
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Agadir – Ouarzazat (380 Km) | Départ d’Agadir à 9h du matin.. visite de Taroudant (Médina, Souks, Remparts, Palais Salam).. déjeuner à la palmeraie de Tiout, puis continuer jusqu’au ksar d’Ait Benhaddou (classé patrimoine mondial de l’unesco depuis 1987).. visite du ksar, puis on rentre à Ouarzazat …"
+      },
+      {
+        "day": 2,
+        "description": "Ouarzazat – Tinghir (250 Km) | Dés 9h du matin, on prend la route de Skoura – et El Kalaa M’Gouna (Vallée des roses), visite de la Kasbah Amridil.. et puis la vallée de Dadès (route des mille kasbahs).. arrivée à Boumaln Dadès.. puis, visite des Gorges de Dadès, (déjeuner), puis l’après midi, on visite aussi le Gorges de Todgha, puis on rentre à Tinghir…"
+      },
+      {
+        "day": 3,
+        "description": "Tinghir – Zagora - Agadir (330 Km) | Retour vers Agadir via Zagora, visite de la kasbah souterraine et de la poterie, déjeuner puis continuation vers Agadir."
+      }
+    ],
+    "included": [
+      "Transport",
+      "Conducteur / Guide",
+      "Nuitées : Hôtel 4* - Riad - Bivouac (DP)"
+    ],
+    "excluded": [
+      "Boissons",
+      "Repas de Midi"
+    ]
+  }
+]

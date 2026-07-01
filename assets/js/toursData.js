@@ -42,6 +42,31 @@ const toursData = {
       "Pourboires"
     ]
   },
+  "Sortie en Mer à agadir": {
+    included: [
+      "Navigation d'une demi-journée",
+      "Déjeuner à bord",
+      "Temps de baignade et détente",
+      "Transferts aller-retour"
+    ],
+    excluded: [
+      "Dépenses personnelles",
+      "Pourboires"
+    ]
+  },
+  "Hammam & massage à agadir": {
+    included: [
+      "Séance de Hammam traditionnel (1h)",
+      "Gommage corporel authentique",
+      "Massage relaxant à l'huile d'argane (1h)",
+      "Serviettes et équipement de base"
+    ],
+    excluded: [
+      "Soins esthétiques supplémentaires",
+      "Dépenses personnelles",
+      "Pourboires"
+    ]
+  },
   "agafay-desert": {
     included: [
       "Transfert privatisé en 4x4",
@@ -341,6 +366,47 @@ const toursData = {
     excluded: [
       "Recharges",
       "Coffret luxe"
+    ]
+  },
+  "legzira-plage": {
+    included: [
+      "Le Transport",
+      "Le Conducteur / Guide"
+    ],
+    excluded: [
+      "Les Boissons",
+      "Le Repas de Midi"
+    ]
+  },
+  "tafraout-tiznit": {
+    included: [
+      "Le Transport",
+      "Le Conducteur / Guide"
+    ],
+    excluded: [
+      "Les Boissons",
+      "Le Repas de Midi"
+    ]
+  },
+  "agadir-ville-demi-jour": {
+    included: [
+      "Transport",
+      "Conducteur / Guide"
+    ],
+    excluded: [
+      "Entrée Médina d'Agadir",
+      "Prise en Charge (A/R) Taghazout"
+    ]
+  },
+  "taghazout-ocean-dunes": {
+    included: [
+      "Le Transport",
+      "Le Conducteur / Guide"
+    ],
+    excluded: [
+      "Les Boissons",
+      "Le Repas de Midi",
+      "Sandboarding"
     ]
   }
 };
