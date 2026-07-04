@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <link rel="icon" type="image/png" href="ASSA TRANS LOGO.png">
@@ -270,7 +270,7 @@
             <p>Devis gratuit · Réponse sous 2h · Sans engagement</p>
           </div>
           <div class="cfp-body">
-            <form id="contactForm" action="https://formspree.io/f/xgorqaqw" method="POST">
+            <form id="contactForm" action="./send_contact.php" method="POST">
 
               <div class="form-row">
                 <div class="form-group">
@@ -440,23 +440,23 @@ document.getElementById('contactForm')?.addEventListener('submit', async functio
   btn.textContent = 'Envoi en cours…';
 
   try {
-    const res = await fetch('https://formspree.io/f/xgorqaqw', {
+    const res = await fetch('./send_contact.php', {
       method: 'POST',
-      body: new FormData(this),
-      headers: { 'Accept': 'application/json' }
+      body: new FormData(this)
     });
-    if (res.ok) {
+    const data = await res.json().catch(() => ({}));
+    if (res.ok && data.success) {
       btn.textContent = '✓ Message envoyé !';
       btn.style.background = '#22c55e';
       this.reset();
       window.showToast && window.showToast('Merci ! Votre demande a bien été envoyée. Nous vous répondons sous 2 heures.', 'success');
     } else {
-      throw new Error();
+      throw new Error(data.error || 'Une erreur est survenue. Veuillez réessayer ou nous contacter par WhatsApp.');
     }
-  } catch {
+  } catch (err) {
     btn.disabled = false;
     btn.textContent = 'Envoyer ma demande →';
-    errList.innerHTML = '<li>Une erreur est survenue. Veuillez réessayer ou nous contacter par WhatsApp.</li>';
+    errList.innerHTML = '<li>' + (err.message || 'Une erreur est survenue. Veuillez réessayer ou nous contacter par WhatsApp.') + '</li>';
     errBox.style.display = 'block';
   }
 });
