@@ -136,7 +136,7 @@
 <div class="mobile-nav">
   <div class="mobile-nav-close">
     <span class="mobile-nav-logo">Assa<span>Trans</span></span>
-    <button style="font-size:22px;color:rgba(255,255,255,0.6);background:none;border:none;cursor:pointer;">✕</button>
+    <button aria-label="Fermer le menu" style="font-size:22px;color:rgba(255,255,255,0.6);background:none;border:none;cursor:pointer;">✕</button>
   </div>
   <a href="index.html" class="mobile-nav-link">Accueil</a>
   <a href="excursions/index.html" class="mobile-nav-link">Excursions</a>
@@ -274,30 +274,30 @@
 
               <div class="form-row">
                 <div class="form-group">
-                  <label>Prénom *</label>
-                  <input type="text" name="firstname" placeholder="Jean" required>
+                  <label for="contact-firstname">Prénom *</label>
+                  <input type="text" id="contact-firstname" name="firstname" placeholder="Jean" required>
                 </div>
                 <div class="form-group">
-                  <label>Nom *</label>
-                  <input type="text" name="lastname" placeholder="Martin" required>
+                  <label for="contact-lastname">Nom *</label>
+                  <input type="text" id="contact-lastname" name="lastname" placeholder="Martin" required>
                 </div>
               </div>
 
               <div class="form-row">
                 <div class="form-group">
-                  <label>Email *</label>
-                  <input type="email" name="email" placeholder="votre@email.com" required>
+                  <label for="contact-email">Email *</label>
+                  <input type="email" id="contact-email" name="email" placeholder="votre@email.com" required>
                 </div>
                 <div class="form-group">
-                  <label>Téléphone / WhatsApp *</label>
-                  <input type="tel" name="phone" placeholder="+33 6 00 00 00 00" required>
+                  <label for="contact-phone">Téléphone / WhatsApp *</label>
+                  <input type="tel" id="contact-phone" name="phone" placeholder="+33 6 00 00 00 00" required>
                 </div>
               </div>
 
               <div class="form-row single" style="margin-bottom:16px;">
                 <div class="form-group">
-                  <label>Type de prestation *</label>
-                  <select name="service_type" required>
+                  <label for="contact-service">Type de prestation *</label>
+                  <select id="contact-service" name="service_type" required>
                     <option value="">Choisir…</option>
                     <option value="transfert">Transfert aéroport</option>
                     <option value="excursion">Excursion à la journée</option>
@@ -310,12 +310,12 @@
 
               <div class="form-row">
                 <div class="form-group">
-                  <label>Date souhaitée *</label>
-                  <input type="date" name="travel_date" required>
+                  <label for="contact-date">Date souhaitée *</label>
+                  <input type="date" id="contact-date" name="travel_date" required>
                 </div>
                 <div class="form-group">
-                  <label>Nombre de personnes</label>
-                  <select name="passengers">
+                  <label for="contact-passengers">Nombre de personnes</label>
+                  <select id="contact-passengers" name="passengers">
                     <option>1</option><option>2</option><option selected>3</option>
                     <option>4</option><option>5</option><option>6</option>
                     <option>7</option><option>8</option><option>9+</option>
@@ -417,7 +417,7 @@
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer></script>
 <script>
 // Contact form validation
 document.getElementById('contactForm')?.addEventListener('submit', async function(e) {

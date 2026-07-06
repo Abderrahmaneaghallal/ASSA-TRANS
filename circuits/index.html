@@ -161,7 +161,7 @@
 <div class="mobile-nav">
   <div class="mobile-nav-close">
     <span class="mobile-nav-logo">Assa<span>Trans</span></span>
-    <button style="font-size:22px;color:rgba(255,255,255,0.6);background:none;border:none;cursor:pointer;">✕</button>
+    <button aria-label="Fermer le menu" style="font-size:22px;color:rgba(255,255,255,0.6);background:none;border:none;cursor:pointer;">✕</button>
   </div>
   <a href="../index.html" class="mobile-nav-link">Accueil</a>
   <a href="../excursions/index.html" class="mobile-nav-link">Excursions</a>
@@ -231,8 +231,8 @@
           <div class="tour-gallery-track">
             <div class="tour-gallery-slide"><img src="https://agadir-visite.com/wp-content/uploads/2022/11/Medresa-Ben-Youssef-patrimoine-traditionnel-e1737716699463.webp" alt="Circuit Villes Impériales" loading="lazy"></div>
           </div>
-          <button class="gallery-prev">&#8249;</button><button class="gallery-next">&#8250;</button>
-          <div class="gallery-dots"><button class="gallery-dot active"></button></div>
+          <button class="gallery-prev" aria-label="Diapositive précédente">&#8249;</button><button class="gallery-next" aria-label="Diapositive suivante">&#8250;</button>
+          <div class="gallery-dots"><button class="gallery-dot active" aria-label="Diapositive active"></button></div>
           <span class="card-badge-cat">Villes Impériales</span>
           <span class="card-badge-duration"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>6 jours</span>
         </div>
@@ -255,8 +255,8 @@
           <div class="tour-gallery-track">
             <div class="tour-gallery-slide"><img src="https://agadir-visite.com/wp-content/uploads/2022/11/5c6872be34794011725075.jpg" alt="Grand Sud 4x4 - Zagora" loading="lazy"></div>
           </div>
-          <button class="gallery-prev">&#8249;</button><button class="gallery-next">&#8250;</button>
-          <div class="gallery-dots"><button class="gallery-dot active"></button></div>
+          <button class="gallery-prev" aria-label="Diapositive précédente">&#8249;</button><button class="gallery-next" aria-label="Diapositive suivante">&#8250;</button>
+          <div class="gallery-dots"><button class="gallery-dot active" aria-label="Diapositive active"></button></div>
           <span class="card-badge-cat">Grand Sud</span>
           <span class="card-badge-duration"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>6 jours</span>
         </div>
@@ -279,8 +279,8 @@
           <div class="tour-gallery-track">
             <div class="tour-gallery-slide"><img src="https://travelplansmarrakech.com/wp-content/uploads/2024/10/5-3.jpeg" alt="9 JOURS GRAND TOUR" loading="lazy"></div>
           </div>
-          <button class="gallery-prev">&#8249;</button><button class="gallery-next">&#8250;</button>
-          <div class="gallery-dots"><button class="gallery-dot active"></button></div>
+          <button class="gallery-prev" aria-label="Diapositive précédente">&#8249;</button><button class="gallery-next" aria-label="Diapositive suivante">&#8250;</button>
+          <div class="gallery-dots"><button class="gallery-dot active" aria-label="Diapositive active"></button></div>
           <span class="card-badge-cat">Villes Impériales</span>
           <span class="card-badge-duration"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>9 jours</span>
         </div>
@@ -303,8 +303,8 @@
           <div class="tour-gallery-track">
             <div class="tour-gallery-slide"><img src="https://agadir-visite.com/wp-content/uploads/2022/11/5c6af99240fcc811796346.jpg" alt="Circuit Grand Sud Marocain – Zagora" loading="lazy"></div>
           </div>
-          <button class="gallery-prev">&#8249;</button><button class="gallery-next">&#8250;</button>
-          <div class="gallery-dots"><button class="gallery-dot active"></button></div>
+          <button class="gallery-prev" aria-label="Diapositive précédente">&#8249;</button><button class="gallery-next" aria-label="Diapositive suivante">&#8250;</button>
+          <div class="gallery-dots"><button class="gallery-dot active" aria-label="Diapositive active"></button></div>
           <span class="card-badge-cat">Grand Sud</span>
           <span class="card-badge-duration"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>3 jours</span>
         </div>
@@ -411,7 +411,7 @@
   </div>
 </footer>
 
-<script src="../assets/js/main.js"></script>
+<script src="../assets/js/main.js" defer></script>
 <script>
 // Category filter with count update
 (function(){
@@ -438,6 +438,6 @@
 // Escape key handled by elite-modal.js
 </script>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23/build/js/intlTelInput.min.js"></script>
-<script src="../assets/js/elite-modal.js"></script>
+<script src="../assets/js/elite-modal.js" defer></script>
 </body>
 </html>
