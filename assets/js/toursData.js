@@ -381,11 +381,11 @@ const toursData = {
   "tafraout-tiznit": {
     included: [
       "Le Transport",
-      "Le Conducteur / Guide"
+      "Le Conducteur / Guide",
+      "Le Repas de Midi"
     ],
     excluded: [
-      "Les Boissons",
-      "Le Repas de Midi"
+      "Les Boissons"
     ]
   },
   "agadir-ville-demi-jour": {
@@ -407,6 +407,17 @@ const toursData = {
       "Les Boissons",
       "Le Repas de Midi",
       "Sandboarding"
+    ]
+  }
+
+  "petit-sahara": {
+    included: [
+      "Transport",
+      "Conducteur / Guide",
+      "Repas de midi"
+    ],
+    excluded: [
+      "Boissons"
     ]
   }
 };
