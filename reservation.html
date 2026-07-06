@@ -479,6 +479,7 @@ document.title = 'Réserver — ' + name + ' — AssaTrans';
       'Excursion Petit Sahara':                 'petit-sahara',
       'visite de ville Agadir 1/2 j':           'agadir-ville-demi-jour',
       'Excursion Taghazout Océan Dunes (1j)':   'taghazout-ocean-dunes',
+      'Agadir Dolphin World':                   'agadir-dolphin-world',
     };
     var key = nameMap[name] || data.tourId || name;
     if (key && toursData[key]) {
@@ -499,7 +500,7 @@ document.title = 'Réserver — ' + name + ' — AssaTrans';
     excEl.innerHTML += '<li class="exc">' + crossSvg + item + '</li>';
   });
   document.getElementById('resIncExc').style.display = 'block';
-})();
+ })();
 
 // Set min date to today
 const today = new Date();
@@ -508,7 +509,43 @@ const mm = String(today.getMonth()+1).padStart(2,'0');
 const dd = String(today.getDate()).padStart(2,'0');
 const dateStr = yyyy + '-' + mm + '-' + dd;
 document.getElementById('resDate').min = dateStr;
-document.getElementById('resDate').value = dateStr;
+
+// Helper to find the next valid day for Agadir Dolphin World (Wed, Fri, Sat, Sun)
+function getNextValidDolphinDate() {
+  let tempDate = new Date();
+  for (let i = 0; i < 7; i++) {
+    const y = tempDate.getFullYear();
+    const m = String(tempDate.getMonth() + 1).padStart(2, '0');
+    const d = String(tempDate.getDate()).padStart(2, '0');
+    const checkStr = y + '-' + m + '-' + d;
+    const parsed = new Date(checkStr);
+    const day = parsed.getUTCDay(); // 0 = Sun, 3 = Wed, 5 = Fri, 6 = Sat
+    if ([0, 3, 5, 6].includes(day)) {
+      return checkStr;
+    }
+    tempDate.setDate(tempDate.getDate() + 1);
+  }
+  return dateStr;
+}
+
+if (name === 'Agadir Dolphin World') {
+  document.getElementById('resDate').value = getNextValidDolphinDate();
+} else {
+  document.getElementById('resDate').value = dateStr;
+}
+
+// Validation listener on date picker change
+document.getElementById('resDate').addEventListener('change', function() {
+  if (!this.value) return;
+  if (name === 'Agadir Dolphin World') {
+    const selectedDate = new Date(this.value);
+    const day = selectedDate.getUTCDay();
+    if (![0, 3, 5, 6].includes(day)) {
+      alert("Cette activité n'est disponible que les mercredis, vendredis, samedis et dimanches. Veuillez choisir un autre jour.");
+      this.value = getNextValidDolphinDate();
+    }
+  }
+});
 
 // ── PRICE CALCULATION ──
 let suppTotal = 0;
@@ -549,6 +586,15 @@ function submitReservation() {
   if (!nom) { alert('Veuillez entrer votre nom complet.'); return; }
   if (!tel) { alert('Veuillez entrer votre numéro de téléphone.'); return; }
   if (!date) { alert('Veuillez choisir une date.'); return; }
+
+  if (name === 'Agadir Dolphin World') {
+    const selectedDate = new Date(date);
+    const day = selectedDate.getUTCDay();
+    if (![0, 3, 5, 6].includes(day)) {
+      alert("Cette activité n'est disponible que les mercredis, vendredis, samedis et dimanches. Veuillez choisir un autre jour.");
+      return;
+    }
+  }
 
   // Build WhatsApp message
   const msg = encodeURIComponent(

@@ -408,8 +408,7 @@ const toursData = {
       "Le Repas de Midi",
       "Sandboarding"
     ]
-  }
-
+  },
   "petit-sahara": {
     included: [
       "Transport",
@@ -418,6 +417,18 @@ const toursData = {
     ],
     excluded: [
       "Boissons"
+    ]
+  },
+  "agadir-dolphin-world": {
+    included: [
+      "Accès au parc Dolphin World",
+      "Spectacle de dauphins et lions de mer",
+      "Siège réservé pour le show",
+      "Transfert aller-retour depuis votre hôtel"
+    ],
+    excluded: [
+      "Nager avec les dauphins (+70€ en option)",
+      "Photo professionnelle avec les dauphins (+15€ en option)"
     ]
   }
 };
